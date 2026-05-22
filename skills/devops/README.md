@@ -185,7 +185,8 @@ Installs to `~/.agents/skills/devops/` and symlinks into each AI agent automatic
 ### Manual install
 
 ```bash
-git clone https://github.com/H3nSte1n/skills ~/.agents/skills
+git clone https://github.com/H3nSte1n/skills
+cp -r skills/devops ~/.agents/skills/devops
 ```
 
 ### Set your server host
