@@ -29,13 +29,13 @@ npx skills add H3nSte1n/skills --skill <name>
 
 | Skill | Description | Install |
 |-------|-------------|---------|
-| [🖥️ devops](devops/) | Expert DevOps engineer on demand: security audits, service health, nginx & SSL, Docker, auto-rollback | `npx skills add H3nSte1n/skills --skill devops` |
+| [🖥️ devops](skills/devops/) | Expert DevOps engineer on demand: security audits, service health, nginx & SSL, Docker, auto-rollback | `npx skills add H3nSte1n/skills --skill devops` |
 
 ---
 
 ## 🖥️ devops — Highlights
 
-> Full documentation: [devops/README.md](devops/README.md)
+> Full documentation: [devops/README.md](skills/devops/README.md)
 
 Manage a Debian/Ubuntu server over SSH in plain English. Every change goes through a **diff → confirm → backup → apply → validate → rollback** workflow, so you stay in full control at every step.
 
@@ -77,7 +77,7 @@ export DEVOPS_HOST=agentops@your-server-ip
 /devops setup
 ```
 
-See [devops/README.md](devops/README.md) for the full setup guide, including how to create a dedicated `agentops` user with a separate SSH key for safe agent access.
+See [devops/README.md](skills/devops/README.md) for the full setup guide, including how to create a dedicated `agentops` user with a separate SSH key for safe agent access.
 
 ---
 
