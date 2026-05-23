@@ -8,7 +8,6 @@ description: >
   "harden ssh", "check disk", "add vhost", "devops setup", or any server/VPS management request.
   Connection target read from DEVOPS_HOST env var (format: user@hostname), overridable by
   passing a host as the first argument.
-disable-model-invocation: true
 license: MIT
 ---
 
